@@ -118,7 +118,7 @@ int compress(char *name)
     if (tb>0) write_trash(file,tb,data+bp-tb);
     write_end(file);
     fclose(file);
-    printf("done, ratio: %u%%\n",outsize*100/insize);
+    printf("done, ratio: %u%% saved: %d bytes\n", outsize*100/insize, insize-outsize);
   } else
     printf("error opening %s\n",name);
   return 0;
