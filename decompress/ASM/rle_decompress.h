@@ -1,3 +1,6 @@
+// GB-Compress decompressor
+// Compatible with GBTD
+
 #ifndef __RLE_DECOMPRESS_H_INCLUDE
 #define __RLE_DECOMPRESS_H_INCLUDE
 
